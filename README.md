@@ -24,3 +24,5 @@
 5-For animation we are using framer motion.
 
 6- So easy to use, if you use div just use motion.div, motion.h1 and like that
+
+7- ClipPath, a css property, allows you to create different shapes as per requirement.
