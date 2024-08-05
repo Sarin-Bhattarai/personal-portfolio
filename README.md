@@ -28,3 +28,5 @@
 7- ClipPath, a css property, allows you to create different shapes as per requirement.
 
 8- We added animation for sidebar and warpped the component with necessary styling.
+
+9- We are building Hero component and applying required styling for user-friendly.

@@ -5,8 +5,8 @@ import Sidebar from "../sidebar/Sidebar";
 const Navbar = () => {
   return (
     <div className="navbar">
+      <Sidebar />
       <div className="wrapper">
-        <Sidebar />
         <motion.span
           initial={{
             opacity: 0,
@@ -20,7 +20,7 @@ const Navbar = () => {
             duration: 0.5,
           }}
         >
-          Sarin Bhattarai
+          SARIN BHATTARAI
         </motion.span>
         <div className="social">
           <a href="#">
