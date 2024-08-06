@@ -1,6 +1,7 @@
 import "./app.scss";
-import Navbar from "./components/header/Navbar";
 import Hero from "./pages/hero/Hero";
+import Parallax from "./pages/parallax/Parallax";
+import Navbar from "./components/header/Navbar";
 
 const App = () => {
   return (
@@ -9,16 +10,14 @@ const App = () => {
         <Navbar />
         <Hero />
       </section>
-      <section className="center" id="Services">
-        Parallax
-        <h1>Under Construction...👷‍♂️🚧</h1>
+      <section id="Services">
+        <Parallax type="services" />
       </section>
       <section className="center">
         Services <h1>Under Construction...👷‍♂️🚧</h1>
       </section>
-      <section className="center" id="Portfolio">
-        Parallax
-        <h1>Under Construction...👷‍♂️🚧</h1>
+      <section id="Portfolio">
+        <Parallax type="portfolio" />
       </section>
       <section className="center">
         Portfolio1

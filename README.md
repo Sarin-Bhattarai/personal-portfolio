@@ -30,3 +30,7 @@
 8- We added animation for sidebar and warpped the component with necessary styling.
 
 9- We are building Hero component and applying required styling for user-friendly.
+
+10- We are using useScroll hook provided by framer-motion for animation between page changing from parallax.
+
+11- useTransform creates a MotionValue that takes the output of one or more other MotionValues and changes it some way.
