@@ -1,8 +1,9 @@
 import "./app.scss";
 import Hero from "./pages/hero/Hero";
-import Parallax from "./pages/parallax/Parallax";
 import Navbar from "./components/header/Navbar";
 import Services from "./pages/services/Services";
+import Parallax from "./pages/parallax/Parallax";
+import Portfolio from "./pages/portfolio/Portfolio";
 
 const App = () => {
   return (
@@ -20,18 +21,7 @@ const App = () => {
       <section id="Portfolio">
         <Parallax type="portfolio" />
       </section>
-      <section className="center">
-        Portfolio1
-        <h1>Under Construction...👷‍♂️🚧</h1>
-      </section>
-      <section className="center">
-        Portfolio2
-        <h1>Under Construction...👷‍♂️🚧</h1>
-      </section>
-      <section className="center">
-        Portfolio3
-        <h1>Under Construction...👷‍♂️🚧</h1>
-      </section>
+      <Portfolio />
       <section className="center" id="Contact">
         Contact
         <h1>Under Construction...👷‍♂️🚧</h1>
