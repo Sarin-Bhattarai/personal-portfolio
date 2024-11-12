@@ -49,8 +49,13 @@
     .imgContainer{
         height: 100%;
         position: absolute;
-        top: 0;
-        right: 0;
+        top: -12%;
+        right:15%;
+
+        img{
+            height: 120%;
+            width: auto;
+        }
     }
 
     .slidingTextContainer{

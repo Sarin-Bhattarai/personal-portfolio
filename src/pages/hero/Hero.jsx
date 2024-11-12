@@ -74,8 +74,9 @@ const Hero = () => {
       >
         Software Developer Fullstack DevOps
       </motion.div>
+
       <div className="imgContainer">
-        <img src="/hero.png" alt="person" />
+        <img src="/img.png" alt="person" />
       </div>
     </div>
   );
