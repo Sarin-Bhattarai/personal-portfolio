@@ -1,5 +1,8 @@
 import "./contact.scss";
+import toast from "react-hot-toast";
+import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
+import { useRef, useState } from "react";
 
 const variants = {
   initial: {
@@ -17,6 +20,29 @@ const variants = {
 };
 
 const Contact = () => {
+  const ref = useRef();
+  const [error, setError] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm("service_0g9lrka", "template_5823d7f", ref.current, {
+        publicKey: "WaBlZbO-0Xxd9bMhH",
+      })
+      .then(
+        () => {
+          setError(false);
+          toast.success("Message submitted successfully");
+          ref.current.reset();
+        },
+        (error) => {
+          setError(true);
+          console.error(error.message);
+          toast.error("There was error while submitting");
+        }
+      );
+  };
+
   return (
     <motion.div
       className="contact"
@@ -70,13 +96,15 @@ const Contact = () => {
           </svg>
         </motion.div>
         <motion.form
+          ref={ref}
+          onSubmit={sendEmail}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 4, duration: 1 }}
         >
-          <input type="text" required placeholder="Name" />
-          <input type="mail" required placeholder="Email" />
-          <textarea rows={8} placeholder="Message" />
+          <input type="text" required placeholder="Name" name="name" />
+          <input type="mail" required placeholder="Email" name="email" />
+          <textarea rows={8} placeholder="Message" name="message" />
           <button>Submit</button>
         </motion.form>
       </div>
