@@ -4,12 +4,14 @@ import { Toaster } from "react-hot-toast";
 import Contact from "./pages/contact/Contact";
 import Navbar from "./components/header/Navbar";
 import Services from "./pages/services/Services";
+import Cursor from "./components/cursor/Cursor";
 import Parallax from "./pages/parallax/Parallax";
 import Portfolio from "./pages/portfolio/Portfolio";
 
 const App = () => {
   return (
     <div>
+      <Cursor />
       <section id="Home">
         <Navbar />
         <Hero />
