@@ -4,6 +4,8 @@ import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 
+const isMobile = window.innerWidth <= 768;
+
 const variants = {
   initial: {
     y: 500,
@@ -72,7 +74,11 @@ const Contact = () => {
           whileInView={{ opacity: 0 }}
           transition={{ delay: 3, duration: 1 }}
         >
-          <svg width="450px" height="450px" viewBox="0 0 32.666 32.666">
+          <svg
+            width={isMobile ? "250px" : "450px"}
+            height={isMobile ? "250px" : "450px"}
+            viewBox="0 0 32.666 32.666"
+          >
             <motion.path
               strokeWidth={0.2}
               fill="none"

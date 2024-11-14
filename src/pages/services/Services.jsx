@@ -2,9 +2,11 @@ import "./services.scss";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
+const isMobile = window.innerWidth <= 768;
+
 const variants = {
   initial: {
-    x: -500,
+    x: isMobile ? -50 : -500,
     y: 100,
     opacity: 0,
   },
