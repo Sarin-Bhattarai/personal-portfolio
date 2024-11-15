@@ -35,8 +35,8 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
-          <br /> and move forward
+          I aim to elevate your brand&apos;s reach
+          <br /> and drive meaningful progress
         </p>
         <hr />
       </motion.div>
@@ -44,13 +44,14 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="people" />
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
+            <motion.b whileHover={{ color: "orange" }}>Innovative</motion.b>{" "}
+            Solutions
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
-            Business.
+            <motion.b whileHover={{ color: "orange" }}>Empowering</motion.b>{" "}
+            Growth.
           </h1>
           <button>WHAT WE DO?</button>
         </div>
@@ -60,12 +61,12 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Custom Web Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            vel iure nam ipsum corporis, veniam amet. Pariatur dolor molestias,
-            doloremque laudantium deleniti aliquam impedit, nesciunt minus
-            beatae fugit voluptate autem!
+            Crafting tailored web solutions that align with your brand,
+            enhancing user engagement and delivering measurable results. Focused
+            on seamless navigation and unique functionalities, we build websites
+            that resonate.
           </p>
           <button>Go</button>
         </motion.div>
@@ -73,12 +74,12 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Responsive Design</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            vel iure nam ipsum corporis, veniam amet. Pariatur dolor molestias,
-            doloremque laudantium deleniti aliquam impedit, nesciunt minus
-            beatae fugit voluptate autem!
+            Ensuring flawless functionality across devices, from desktops to
+            smartphones. Our responsive designs adapt effortlessly, providing a
+            smooth experience for every user, enhancing reach, and boosting
+            usability.
           </p>
           <button>Go</button>
         </motion.div>
@@ -86,12 +87,12 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Fast & Secure Backend</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            vel iure nam ipsum corporis, veniam amet. Pariatur dolor molestias,
-            doloremque laudantium deleniti aliquam impedit, nesciunt minus
-            beatae fugit voluptate autem!
+            Building backends that prioritize speed, reliability, and security.
+            Our optimized server-side solutions protect your data and ensure
+            performance under heavy loads, supporting business growth
+            confidently.
           </p>
           <button>Go</button>
         </motion.div>
@@ -99,12 +100,11 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Maintenance & Support</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            vel iure nam ipsum corporis, veniam amet. Pariatur dolor molestias,
-            doloremque laudantium deleniti aliquam impedit, nesciunt minus
-            beatae fugit voluptate autem!
+            Providing continuous support to ensure your applications perform
+            flawlessly. From updates to troubleshooting, we handle it all so you
+            can focus on growth, knowing your systems are secure and reliable.
           </p>
           <button>Go</button>
         </motion.div>

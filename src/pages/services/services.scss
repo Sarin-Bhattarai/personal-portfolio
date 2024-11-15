@@ -79,7 +79,7 @@
             }
 
             h1{
-                font-size: 72px;
+                font-size: 65px;
                 font-weight: 100;
 
                 @include mobile {
@@ -88,12 +88,12 @@
             }
 
             button{
-                width: 230px;
+                width: 200px;
                 height: 80px;
                 border-radius: 50px;
                 background-color: orange;
                 border: none;
-                font-size: 22px;
+                font-size: 20px;
                 cursor: pointer;
 
                 @include mobile {

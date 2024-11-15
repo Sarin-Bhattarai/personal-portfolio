@@ -23,17 +23,33 @@ const Navbar = () => {
           SARIN BHATTARAI
         </motion.span>
         <div className="social">
-          <a href="#">
+          <a
+            href="https://www.facebook.com/Sarinb123/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/facebook.png" alt="facebook logo" />
           </a>
-          <a href="#">
+          <a
+            href="https://www.instagram.com/sarin__bhattarai/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/instagram.png" alt="instagram logo" />
           </a>
-          <a href="#">
-            <img src="/youtube.png" alt="youtube logo" />
+          <a
+            href="https://github.com/Sarin-Bhattarai"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/git.png" alt="github logo" />
           </a>{" "}
-          <a href="#">
-            <img src="/dribbble.png" alt="dribbble logo" />
+          <a
+            href="https://www.linkedin.com/in/sarin-bhattarai-a69270229/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/linkedin.png" alt="linkedin logo" />
           </a>
         </div>
       </div>
