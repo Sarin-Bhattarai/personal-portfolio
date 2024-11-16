@@ -8,28 +8,28 @@ const data = [
     title: "Fast Pizza Co.",
     img: "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=600",
     url: "https://fast-pizza-sepia.vercel.app/",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, consequatur, commodi dolorum nam, quis aliquam atque quibusdam est non officiis ea ad reiciendis iusto corporis? Voluptate omnis incidunt pariatur saepe?",
+    desc: "Fast Pizza Co. offers a seamless pizza ordering experience. Enter your name, explore delicious options, and place your order with ease. Enjoy fast delivery and satisfaction with every bite!",
   },
   {
     id: 2,
     title: "The Tranquil Haven",
     img: "https://images.pexels.com/photos/9211816/pexels-photo-9211816.jpeg?auto=compress&cs=tinysrgb&w=600",
     url: "https://the-tranquil-haven.vercel.app/",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, consequatur, commodi dolorum nam, quis aliquam atque quibusdam est non officiis ea ad reiciendis iusto corporis? Voluptate omnis incidunt pariatur saepe?",
+    desc: "The Tranquil Haven is a hotel management system that helps you easily book and manage cabin reservations. With an intuitive interface, users can check availability, book rooms, and track their stay. Experience seamless hospitality at your fingertips!",
   },
   {
     id: 3,
     title: "Sarangkot Treks",
     img: "https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&w=600",
     url: "https://www.sarangkottreks.com.np/",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, consequatur, commodi dolorum nam, quis aliquam atque quibusdam est non officiis ea ad reiciendis iusto corporis? Voluptate omnis incidunt pariatur saepe?",
+    desc: "Sarangkot Treks provides unforgettable trekking experiences to various breathtaking destinations. Catering to tourists seeking adventure, the company offers guided tours, ensuring a safe and memorable journey through Nepal’s scenic landscapes.",
   },
   {
     id: 4,
     title: "Reflection Cleaners",
     img: "https://images.pexels.com/photos/4239145/pexels-photo-4239145.jpeg?auto=compress&cs=tinysrgb&w=600",
     url: "https://www.reflectioncleaners.co.nz/",
-    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, consequatur, commodi dolorum nam, quis aliquam atque quibusdam est non officiis ea ad reiciendis iusto corporis? Voluptate omnis incidunt pariatur saepe?",
+    desc: "Reflection Cleaners is a New Zealand-based company offering top-notch cleaning services across Hamilton and Auckland. With a focus on quality and customer satisfaction, they provide residential and commercial cleaning solutions that ensure a spotless and hygienic environment.",
   },
 ];
 

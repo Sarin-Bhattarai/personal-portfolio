@@ -89,12 +89,17 @@
 
             button{
                 width: 200px;
-                height: 80px;
+                height: 65px;
                 border-radius: 50px;
-                background-color: orange;
+            background-color: #D3D3D3;
                 border: none;
                 font-size: 20px;
                 cursor: pointer;
+                color: black;
+
+                &:hover{
+                    background-color: orange;
+                }
 
                 @include mobile {
                         font-size: 16px;
@@ -127,8 +132,9 @@
             gap: 20px;
 
 
-            button{
-                padding: 10px;
+            a, button{
+                text-align: center;
+                padding: 5px;
                 background-color: orange;
                 border: none;
                 cursor: pointer;

@@ -68,7 +68,13 @@ const Services = () => {
             on seamless navigation and unique functionalities, we build websites
             that resonate.
           </p>
-          <button>Go</button>
+          <a
+            href="https://roudstudio.com/blog/custom-web-development"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Go</button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
@@ -81,7 +87,13 @@ const Services = () => {
             smooth experience for every user, enhancing reach, and boosting
             usability.
           </p>
-          <button>Go</button>
+          <a
+            href="https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Go</button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
@@ -94,7 +106,13 @@ const Services = () => {
             performance under heavy loads, supporting business growth
             confidently.
           </p>
-          <button>Go</button>
+          <a
+            href="https://teskalabs.com/blog/backend-security-importance"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Go</button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
@@ -106,7 +124,13 @@ const Services = () => {
             flawlessly. From updates to troubleshooting, we handle it all so you
             can focus on growth, knowing your systems are secure and reliable.
           </p>
-          <button>Go</button>
+          <a
+            href="https://www.edgeoftheweb.co.uk/blog/everything-you-need-to-know-about-website-maintenance"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Go</button>
+          </a>
         </motion.div>
       </motion.div>
     </motion.div>
