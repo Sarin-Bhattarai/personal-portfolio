@@ -43,7 +43,7 @@
 
             .buttons{
                 button{
-                    padding: 20px;
+                    padding: 15px;
                     border: 1px solid white;
                     border-radius: 10px;
                     background-color: transparent;
@@ -51,6 +51,38 @@
                     cursor: pointer;
                     margin-right: 20px;
                     font-weight: 300;
+                    position: relative;
+                    /* Required for the pseudo-element */
+                    overflow: hidden;
+                    /* Ensures the hover effect stays within the button bounds */
+                    transition: color 0.3s ease;
+                    /* Smooth text color transition */
+
+                    &:hover {
+                        color: black;
+                        /* Changes text color on hover */
+                        }
+
+                    /* Pseudo-element for the hover effect */
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        left: -100%;
+                        width: 100%;
+                        height: 100%;
+                        background-color: orange;
+                        z-index: -1;
+                        /* Places the pseudo-element behind the text */
+                        transition: left 0.5s ease;
+                            }
+                        
+                    &:hover::before {
+                        left: 0;
+
+                            }
+                    
+                            
                 }
             }
 
